@@ -3,84 +3,84 @@
 
 UI Library: ...
 
-Struktur Folder:
+Folder Structure:
 
 - client-mobile
 - server
   - orchestrator (port: 4000)
   - orchestrator-express (port: 4000)
   - services
-    - users - mongodb (port: 4001)
-    - app - postgres (port: 4002)
+    - users - MongoDB (port: 4001)
+    - app - PostgreSQL (port: 4002)
 
-## W2D2
+## Week 2, Day 2
 
-Target:
+Targets:
 
-- [ ] Memahami `react-native` dan `expo`
-- [ ] Install `expo-cli` & `expo init` & setup project mobile
-- [ ] Mencoba component Text, View, Image, StyleSheet, Button, ScrollView, FlatList
-- [ ] Mencoba useState, useEffect dalam react-native
-- [ ] Hit API server yang sudah dibuat untuk mendapatkan data
-- [ ] Mengetahui bahwa redux & redux-thunk bisa diimplementasi di react-native
-- [ ] Memahami `react-native-navigation`
-- [ ] Memahami Stack Navigation & Tab Navigation
-- [ ] Membuat min 2 Screen (Home, Detail)
-
-**Report:**
-
-...
-
-## W2D3
-
-Target:
-
-- [ ] Memahami React Native Gesture Handler
-- [ ] Memahami NoSQL: Mongodb
-- [ ] Membuat service users dengan Mongodb (Kerjakan di `server/services/users`)
-- [ ] Membuat action pada users: Read, Create & Delete (Update optional)
+- [ ] Gain an understanding of `react-native` and `expo`.
+- [ ] Install `expo-cli`, run `expo init`, and set up a mobile project.
+- [ ] Experiment with components such as Text, View, Image, StyleSheet, Button, ScrollView, and FlatList.
+- [ ] Explore the use of useState and useEffect in react-native.
+- [ ] Make API calls to the existing server to fetch data.
+- [ ] Learn how to implement redux and redux-thunk in react-native.
+- [ ] Understand `react-native-navigation`.
+- [ ] Grasp the concepts of Stack Navigation and Tab Navigation.
+- [ ] Create a minimum of 2 screens (Home and Detail).
 
 **Report:**
 
 ...
 
-## W2D4
+## Week 2, Day 3
 
-Target:
+Targets:
 
-- [ ] Membuat Server Baru, Microservices
-- [ ] Memisahkan service user dan app
-- [ ] Membuat Orchestrator-express yang bisa komunikasi ke service user dan app
-- [ ] Memahami cache dalam database
-- [ ] Install dataabase Redis dan menggunakan ioRedis sebagai cache
-- [ ] Menjaga relasi User dengan product pada microservice
+- [ ] Understand React Native Gesture Handler.
+- [ ] Familiarize with NoSQL: MongoDB.
+- [ ] Develop a users service using MongoDB (Work on it in `server/services/users`).
+- [ ] Create actions for users: Read, Create, and Delete (Update is optional).
 
 **Report:**
 
 ...
 
-## W2D5
+## Week 2, Day 4
 
-Target:
+Targets:
 
-- [ ] Memahami GraphQL dan tahu perbedaan dengan RESTful API
-- [ ] Membuat Orchestrator dengan menggunakan GraphQL
-- [ ] Memahami Typedefs, Resolvers
-- [ ] Mampu membuat Query dan Mutation
-- [ ] Menggunakan redis pada graphql untuk kebutuhan cache server
-- [ ] Memahami Apollo-Client & Implementasi pada mobile apps
-- [ ] Memahami cache pada Apollo-Client
+- [ ] Create a new server, Microservices.
+- [ ] Separate the user and app services.
+- [ ] Build an Orchestrator-express that can communicate with the user and app services.
+- [ ] Understand database caching.
+- [ ] Install Redis as the database cache and use ioRedis.
+- [ ] Maintain the relationship between User and Product in the microservice.
 
 **Report:**
 
 ...
 
-## W3D1
+## Week 2, Day 5
 
-Target:
+Targets:
 
-- [ ] Memahami Docker
-- [ ] Implementasi Docker pada aplikasi server
+- [ ] Grasp GraphQL and understand its differences from RESTful APIs.
+- [ ] Create an Orchestrator using GraphQL.
+- [ ] Understand Typedefs and Resolvers.
+- [ ] Be able to create Queries and Mutations.
+- [ ] Use Redis with GraphQL for server caching.
+- [ ] Understand Apollo-Client and implement it in mobile apps.
+- [ ] Understand caching in Apollo-Client.
+
+**Report:**
+
+...
+
+## Week 3, Day 1
+
+Targets:
+
+- [ ] Gain understanding of Docker.
+- [ ] Implement Docker in the server application.
 
 **Report:**
 
